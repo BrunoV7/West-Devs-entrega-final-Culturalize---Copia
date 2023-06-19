@@ -1,0 +1,105 @@
+@import url(./shared.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header img {
+    width: 170px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 30px;
+    gap: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+}
+
+.links a {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.user_data {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+.user_data h3 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+#main_icons {
+    font-size: 25px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.main_content img {
+    width: 100%;
+}
+
+.main_content article {
+    position: absolute;
+    width: 600px;
+    height: 350px;
+    left: 50px;
+    top: 125px;
+}
+
+.main_content article h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.main_content article p {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
